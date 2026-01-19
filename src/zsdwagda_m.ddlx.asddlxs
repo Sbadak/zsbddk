@@ -1,0 +1,32 @@
+@Metadata.layer:#CORE
+annotate entity zasdjas_c
+    with 
+{
+@UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Empid'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Empid'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+    Empid;
+//    Empname;
+//    Gender;
+//    Address;
+//    Localcreatedby;
+//    Localcreatedat;
+//    Locallastchangedby;
+//    Locallastchangedat;
+//    Lastchangedat; 
+}

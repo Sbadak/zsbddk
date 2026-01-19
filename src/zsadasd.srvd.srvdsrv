@@ -1,0 +1,4 @@
+@EndUserText.label: 'service defination'
+define service Zsadasd {
+  expose zasdjas_c;
+}
